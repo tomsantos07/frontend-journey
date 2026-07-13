@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Inscrição</title>
+</head>
+<body>
+  <h1>Formulário de Inscrição</h1>
+  <form method="get">
+    <br>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required>
+    <br><br>
+
+    <label for="wpp">Whatsapp:</label>
+    <input type="number" id="wpp" name="wpp" required>
+    <br><br>
+
+    <label>Área de atuação:</label><br>
+    <input type="radio" id="area" name="area">
+    <label for="area">Desenvolvimento</label>
+
+    <input type="radio" id="qa" name="qa">
+    <label for="qa">Quality Assurance</label>
+    
+    <input type="radio" id="dados" name="dados">
+    <label for="dados">Análise de Dados</label>
+
+    <input type="radio" id="infra" name="infra">
+    <label for="infra">Infraestrutura</label>
+    <br><br><br><br>
+
+    <label for="observacoes">Observações</label>
+    <textarea id="observacoes" name="observacoes" cols="24" rows="6"></textarea>
+    <br><br>
+
+    <input type="checkbox" id="termos" name="termos" required>
+    <label for="termos">Desejo receber novidades e ofertas por email</label>
+    <br><br>
+
+    <input type="submit" value="Enviar">
+
+  </form>
+
+</body>
+</html>
